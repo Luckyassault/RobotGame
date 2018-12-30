@@ -322,9 +322,9 @@ public class GameScreen extends Screen {
             sanim.addFrame(shield3, 1000);
             sanim.addFrame(shield2, 500);
             sanim.addFrame(shield1, 500);*/
-            //shield.setVisible(false);
-            //shield = null;
-            //sanim = null;
+        //shield.setVisible(false);
+        //shield = null;
+        //sanim = null;
 
         //}
 

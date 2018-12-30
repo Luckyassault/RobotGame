@@ -35,10 +35,6 @@ public class LoadingScreen extends Screen {
 
         Assets.missile = g.newImage("missile.png",ImageFormat.ARGB4444);
 
-        Assets.shield1 = g.newImage("shield1.png",ImageFormat.ARGB4444);
-        Assets.shield2 = g.newImage("shield2.png",ImageFormat.ARGB4444);
-        Assets.shield3 = g.newImage("shield3.png",ImageFormat.ARGB4444);
-
         Assets.tiledirt = g.newImage("tiledirt.png", ImageFormat.RGB565);
         Assets.tilegrassTop = g.newImage("tilegrasstop.png", ImageFormat.RGB565);
         Assets.tilegrassBot = g.newImage("tilegrassbot.png", ImageFormat.RGB565);

@@ -11,7 +11,7 @@ public class Missiles {
     private Background bg = GameScreen.getBg1();
 
     private int x, y, speed;
-    private boolean visible, ready,shield;
+    private boolean visible, ready;
 
     private Rect r = new Rect();
     final private int DAMAGE = 1;
@@ -23,7 +23,6 @@ public class Missiles {
         x = centerX;
         y = YSTART;
         speed = DROPSPEED;
-        //shield = false;
         visible = false; // missile is not painted
         ready = false; // missile does not drop yet
         r = new Rect(0, 0, 0, 0);
@@ -101,7 +100,5 @@ public class Missiles {
         return y;
     }
 
-    /*public void setShield(boolean shield) {
-        this.shield = shield;
-    }*/
+
 }

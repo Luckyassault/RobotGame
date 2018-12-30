@@ -19,13 +19,13 @@ public class Shield {
 
     }
 
-      public void update(){
-          if (visible == true) {
-              checkCollision();
-              x = robot.getCenterX()-61;
-              y = robot.getCenterY()-56;
-              new Rect(x - 61, y - 63, x + 61, y + 63);
-          }
+    public void update(){
+        if (visible == true) {
+            checkCollision();
+            x = robot.getCenterX()-61;
+            y = robot.getCenterY()-56;
+            new Rect(x - 61, y - 63, x + 61, y + 63);
+        }
     }
 
 
